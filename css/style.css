@@ -1,0 +1,667 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: black;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.first-box {
+  position: relative;
+  height: 100%;
+  z-index: 999;
+}
+.first-box__images-wrapp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  z-index: 999;
+}
+.first-box__content {
+  position: relative;
+}
+.first-box__img {
+}
+.first-box__head {
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 92px;
+  max-width: 830px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 96px;
+  margin-bottom: 385px;
+  padding-top: 285px;
+  position: relative;
+  line-height: 95.96px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+.media-link {
+  color: white;
+  display: inline-block;
+  margin: 0 64px;
+  font-family: Dela Gothic One;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.first-box__media-wrapp {
+  display: flex;
+  justify-content: center;
+  size: 14px;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 145px;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+  size: 20px;
+  display: flex;
+  z-index: 1000;
+}
+
+.navbar__first {
+  position: relative;
+  color: white;
+  
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.96px;
+  text-align: left;
+}
+
+.navbar__second {
+  position: relative;
+  color: white;
+ 
+  padding-top: 9px;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.96px;
+  text-align: center;
+}
+.second-box {
+  position: relative;
+  height: 100%;
+}
+.second-box__media-wrapp {
+  display: flex;
+  justify-content: center;
+  size: 14px;
+}
+.second-box__content {
+  position: relative;
+}
+
+.second-box__img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  left: 130px;
+}
+
+.second-box__head {
+  position: relative;
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  max-width: 567.15px;
+  left: 130px;
+  padding-top: 260px;
+}
+
+.second-box__inf {
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  line-height: 26px;
+  left: 750px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.second-box__mate {
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  max-width: 110px;
+  position: relative;
+  line-height: 21.09px;
+  left: 750px;
+  padding-top: 50px;
+  font-size: 18px;
+  text-align: left;
+}
+.second-box__company {
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-top: 7px;
+  max-width: 400px;
+  position: relative;
+  line-height: 26px;
+  left: 750px;
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: left;
+}
+.third-box {
+  position: relative;
+  height: 100%;
+}
+.third-box__img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  left: 130px;
+}
+.third-box__content {
+  position: relative;
+}
+.third-box__content> ul{
+  display: flex;
+}
+.third-box__head {
+  position: relative;
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  max-width: 656.27px;
+  left: 500px;
+}
+.third-box__first {
+  position: relative;
+  color: white;
+  size: 24px;
+  font-weight: 400;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+  left: 500px;
+  padding-top: 50px;
+  max-width: 60px;
+  line-height: 38px;
+  font-family: Dela Gothic One;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.third-box__first__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 500px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.third-box__first__1__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 500px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.third-box__second {
+  position: relative;
+  color: white;
+  font-weight: 400;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+  left: 930px;
+  max-width: 60px;
+  line-height: 38px;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.third-box__second__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 930px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.third-box__third {
+  position: relative;
+  color: white;
+  font-weight: 400;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+  left: 930px;
+  max-width: 60px;
+  line-height: 38px;
+  padding-top: 20px;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.third-box__third__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 930px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.third-box__four {
+  position: relative;
+  color: white;
+  font-weight: 400;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+  left: 500px;
+  padding-top: 50px;
+  max-width: 60px;
+  line-height: 38px;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.third-box__four__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 500px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.third-box__four__1__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 500px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.third-box__five {
+  position: relative;
+  color: white;
+  font-weight: 400;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-style: normal;
+  left: 930px;
+  max-width: 60px;
+  line-height: 38px;
+  padding-top: 20px;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.third-box__five__inf {
+  position: relative;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  left: 930px;
+  padding-top: 20px;
+  max-width: 377px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.four-box {
+  position: relative;
+  height: 100%;
+}
+.four-box__images-wrapp {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  display: flex;
+  padding-top: 30px;
+}
+.four-box__img {
+}
+.four-box__content {
+  position: relative;
+}
+.four-box__head {
+  position: relative;
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  max-width: 656.27px;
+  left: 500px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.five-box {
+  position: relative;
+  height: 100%;
+  top: 200px;
+}
+.five-box__images-wrapp {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  padding-top: 30px;
+}
+.five-box__img__first {
+  position: relative;
+  width: 478px;
+  height: 643px;
+  gap: 0px;
+  opacity: 0px;
+}
+.five-box__img__second {
+  position: relative;
+  width: 478px;
+  height: 352px;
+  gap: 0px;
+  opacity: 0px;
+  padding-top: 30px;
+}
+.five-box__img__third {
+  position: relative;
+  width: 682px;
+  height: 492px;
+  gap: 0px;
+  opacity: 0px;
+  left: 40px;
+}
+.five-box__img__four {
+  position: relative;
+  width: 683px;
+  left: 40px;
+}
+
+.five-box__content {
+  position: relative;
+  color: white;
+}
+.five-box__head {
+  position: relative;
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  max-width: 656.27px;
+  padding-top: 5px;
+}
+.chapter {
+  color: white;
+  margin: 10px;
+  max-width: 400;
+  line-height: 26.06px;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 26.06px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.chapter__all {
+  position: relative;
+  color: white;
+  margin: 10px;
+  line-height: 26.06px;
+  left: 500px;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 26.06px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.six-box__content {
+  position: relative;
+  color: white;
+}
+.six-box {
+  position: relative;
+  height: 100%;
+}
+.six-box__chapter {
+  position: relative;
+  display: inline-block;
+}
+.six-box__head {
+  position: relative;
+  color: white;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  max-width: 656.27px;
+  left: 260px;
+  padding-top: 300px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.six-box__first {
+  position: relative;
+  color: white;
+  font-family: Dela Gothic One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding-top: 50px;
+  display: inline-block;
+}
+.six-box__first__inf {
+  position: relative;
+  color: #939393;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  padding-top: 10px;
+}
+.six-box__second {
+  position: relative;
+  color: white;
+  font-family: Dela Gothic One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  left: 570px;
+  display: inline-block;
+}
+.six-box__second__inf {
+  position: relative;
+  color: #939393;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding-top: 10px;
+  left: 570px;
+}
+.six-box__third {
+  position: relative;
+  color: white;
+  font-family: Dela Gothic One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  left: 1140px;
+  display: inline-block;
+}
+.six-box__third__inf {
+  position: relative;
+  color: #939393;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding-top: 10px;
+  left: 1140px;
+}
+.footer-box {
+  position: relative;
+  height: 100%;
+  top: 200px;
+}
+.footer-box__content {
+}
+.footer-box__content {
+  position: relative;
+  color: white;
+}
+.footer-box__head {
+  font-family: Dela Gothic One;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
